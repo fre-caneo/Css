@@ -1,0 +1,64 @@
+/*Primera clase css + html (textos y colores)*/
+
+h1{
+    color:#FF0000;
+}
+h2{
+    color:blue
+}
+p{
+    color:chartreuse
+}
+#primero{
+    font-weight: bold;
+    color:cornflowerblue
+}
+.destacado{
+    background-color: gold;
+}
+body{
+    background-color: lightslategray;
+}
+.centrado{
+    text-align:center;
+}
+ul{
+    color: blue;
+    list-style: upper-roman;
+    
+}
+#segundo{
+    font-weight: initial;
+    
+
+}
+/* Modelos Capas*/
+
+
+
+#unocapa,#doscapa,#trescapa{
+    width: 200px;
+    height: 150px;
+    padding-top: 50px;
+    box-sizing: border-box;
+    border: 2px black solid;
+    margin-bottom: 10px;
+
+}
+#unocapa{
+    color:white;
+    background-color: lime;
+    
+    
+}
+#doscapa{
+    color: whitesmoke;
+    background-color: magenta;
+
+}
+#trescapa{
+    color: whitesmoke;
+    background-color: mediumblue;
+    
+
+}
